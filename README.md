@@ -1,4 +1,8 @@
-# Python Program for Multi-threaded Subscriptions to Mobius Resources
+# MobiusSubscription
+
+English | [한국어](README.ko.md)
+
+## Overview
 
 This project provides a Python program that subscribes to Mobius platform resources and reads the `con` (content) of the `cin` (content instances) created in those resources. Each subscription operates on a separate thread to prevent any interference or conflicts, supporting multiple concurrent subscriptions.
 
@@ -26,7 +30,8 @@ This project provides a Python program that subscribes to Mobius platform resour
 Clone this repository or download the necessary files:
 
 ```bash
-git clone https://github.com/yourusername/mobius-subscription.git
+git clone https://github.com/woojin2296/MobiusSubscription.git
+cd MobiusSubscription
 ```
 
 ## Usage
@@ -34,10 +39,10 @@ git clone https://github.com/yourusername/mobius-subscription.git
 ### Import the `MobiusSubscription` Class
 
 ```python
-from mobius_subscription import MobiusSubscription
+from MobiusSubscription import MobiusSubscription
 ```
 
-### Create and Run Subscription Instances Exemple
+### Create and Run Subscription Instances Example
 
 ```python
 # Create the first subscription instance
@@ -117,7 +122,7 @@ MobiusSubscription(
 
 ## License
 
-This project is distributed under the [MIT License](LICENSE).
+No license file is included in this repository. Add a license file before distributing or reusing the code.
 
 ## Contributing
 

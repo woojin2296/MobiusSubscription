@@ -1,4 +1,8 @@
-# MobiusSubscription을 활용한 다중 구독 Python 프로그램
+# MobiusSubscription
+
+[English](README.md) | 한국어
+
+## 개요
 
 본 프로젝트는 **Mobius** 플랫폼의 리소스에 구독을 설정하고, 해당 리소스에서 생성되는 **컨텐츠 인스턴스(cin)**의 **컨텐츠(con)** 값을 읽어오는 Python 프로그램입니다. 각 구독은 개별 스레드로 동작하여 충돌이나 간섭 없이 독립적으로 운영되며, 다중 구독을 지원합니다.
 
@@ -26,7 +30,8 @@
 이 저장소를 클론하거나 필요한 파일을 다운로드합니다.
 
 ```bash
-git clone https://github.com/yourusername/mobius-subscription.git
+git clone https://github.com/woojin2296/MobiusSubscription.git
+cd MobiusSubscription
 ```
 
 ## 사용 방법
@@ -34,7 +39,7 @@ git clone https://github.com/yourusername/mobius-subscription.git
 ### MobiusSubscription 클래스 임포트
 
 ```python
-from mobius_subscription import MobiusSubscription
+from MobiusSubscription import MobiusSubscription
 ```
 
 ### 구독 인스턴스 생성 및 실행 예시
@@ -117,7 +122,7 @@ MobiusSubscription(
 
 ## 라이선스
 
-이 프로젝트는 [MIT 라이선스](LICENSE)에 따라 배포됩니다.
+이 저장소에는 라이선스 파일이 포함되어 있지 않습니다. 배포 또는 재사용 전에 라이선스 파일을 추가해야 합니다.
 
 ## 기여
 
